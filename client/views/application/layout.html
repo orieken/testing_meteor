@@ -1,0 +1,18 @@
+<template name="layout">
+    <div class="container">
+        <!--{{> headers}}-->
+        <!--{{> errors }}-->
+        <div id="main" class="row-fluid">
+            {{> yield}}
+        </div>
+    </div>
+    <hr />
+    <h1>Client Tests</h1>
+    <div>
+        {{> mochaTestReport}}
+    </div>
+    <h1>Server Tests</h1>
+    <div>
+        {{> serverTestReport}}
+    </div>
+</template>

@@ -1,0 +1,48 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "jasmine-unit": {},
+      "velocity-html-reporter": {},
+      "mocha-web": {},
+      "iron-router": {}
+    },
+    "packages": {
+      "jasmine-unit": {
+        "git": "https://github.com/xolvio/jasmine-unit.git",
+        "tag": "v0.1.20",
+        "commit": "9c5b0d03013f01a15d61233152381094238fcb4a"
+      },
+      "velocity-html-reporter": {
+        "git": "https://github.com/rdickert/velocity-html-reporter.git",
+        "tag": "v0.1.3",
+        "commit": "c7511d3741bacc75edb30c7c217696bfcffdbab4"
+      },
+      "mocha-web": {
+        "git": "https://github.com/mad-eye/meteor-mocha-web.git",
+        "tag": "v0.2.4",
+        "commit": "97194bc90ea9b32047973ff44562a3da3b4e7477"
+      },
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.7.1",
+        "commit": "d1ffb3f06ea4c112132b030f2eb1a70b81675ecb"
+      },
+      "velocity": {
+        "git": "https://github.com/xolvio/velocity.git",
+        "tag": "v0.1.11",
+        "commit": "a13c44c5acc0f4e7490bc28bc323d3dee799f9a3"
+      },
+      "package-stubber": {
+        "git": "https://github.com/alanning/meteor-package-stubber.git",
+        "tag": "v0.0.7",
+        "commit": "f6d76ae3c9107d25e42bc5b297a8799145e99f73"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.4",
+        "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
+      }
+    }
+  }
+}
